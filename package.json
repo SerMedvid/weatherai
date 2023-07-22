@@ -6,19 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start:stepzen": "cd ./stepzen && stepzen start --dashboard=local"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.17",
+    "@heroicons/react": "^1.0.6",
+    "@tremor/react": "^3.4.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "@types/react-window": "^1.8.5",
     "autoprefixer": "10.4.14",
+    "country-state-city": "^3.1.4",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
+    "graphql": "^16.7.1",
     "next": "13.4.10",
+    "openai": "^3.3.0",
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-select": "^5.7.4",
+    "react-window": "^1.8.9",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
   }
